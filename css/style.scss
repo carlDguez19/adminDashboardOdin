@@ -58,34 +58,35 @@ html, body{
         text-align: center;
         .tab1{
             background-color: orangered;
-            padding: 15px 0;
+            padding: 12px 0;
         }
         .tab2{
             background-color: orange;
-            padding: 15px 0;
+            padding: 12px 0;
         }
         .tab3{
             background-color: yellow;
-            padding: 15px 0;
+            padding: 12px 0;
         }
         .tab4{
             background-color: green;
-            padding: 15px 0;
+            padding: 12px 0;
         }
         .tab5{
             background-color: blue;
-            padding: 15px 0;
+            padding: 12px 0;
 
         }
         .tab6{
             background-color: indigo;
-            padding: 15px 0;
+            padding: 12px 0;
         }
     }
     .settings{
         background-color: black;
         height: 100%;
         align-items: flex-end;
+        margin-top: 25%;
     }
     .settings ul{
         display: grid;
@@ -117,5 +118,22 @@ html, body{
     grid-row: 2/3;
     display: grid;
     grid-template-columns: 2fr 1fr;
+    grid-template-rows: 1fr 1fr;
     background-color: purple;
+    .projects{
+        padding: 5%;
+        grid-row: 1/3;
+        background-color: aquamarine;
+        display: grid;
+        gap: 20px;
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+        .card{
+            height: 150px;
+            background-color: #999;
+        }
+    }
+    .ann{
+        background-color: royalblue;
+        grid-row: 1/2;
+    }
 }
