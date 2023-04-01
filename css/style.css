@@ -16,14 +16,57 @@ html, body {
   grid-row: 1/2;
   display: grid;
   grid-template-columns: 2fr 1fr;
-  grid-template-rows: 1fr 1fr;
+  grid-template-rows: 50px 75px;
   background-color: aqua;
 }
 .header .search {
-  background-color: blue;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.header .search .magGlass {
+  width: 25px;
+  margin-left: 10px;
+  margin-right: 10px;
+  padding-top: 10px;
+}
+.header .search .searchDiv {
+  width: 100%;
+}
+.header .search .searchDiv .searchBar {
+  width: 95%;
+  margin-top: 10px;
+  border-radius: 20px;
+  border: none;
+  background-color: #d3d3d3;
+  height: 20px;
 }
 .header .user {
-  background-color: orange;
+  display: flex;
+  padding: 0 15px;
+  justify-content: flex-end;
+  align-items: center;
+}
+.header .user .bellRing {
+  width: 25px;
+  padding-top: 10px;
+  margin-left: 5px;
+}
+.header .user .pfp {
+  height: 2.5em;
+  width: 2.5em;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 50%;
+  margin-left: 20px;
+}
+.header .user .userName {
+  font-size: 1rem;
+  font-weight: bold;
+  font-family: "arial", sans-serif;
+  margin-left: 20px;
+  margin-right: 25%;
+  padding-top: 5px;
 }
 .header .greeting {
   background-color: green;
