@@ -281,27 +281,15 @@ html, body {
   padding: 0;
   gap: 5px;
 }
-.content .ann ul .ann1 {
+.content .ann ul .annCard {
   background-color: #f9f6ee;
   border-bottom: 5px solid purple;
   border-radius: 5px;
   padding: 5% 15%;
 }
-.content .ann ul .ann1 span {
+.content .ann ul .annCard span {
   font-size: 1.3rem;
   font-weight: bold;
-}
-.content .ann ul .ann2 {
-  background-color: #f9f6ee;
-  border-radius: 5px;
-  border-bottom: 5px solid purple;
-  padding: 5% 15%;
-}
-.content .ann ul .ann3 {
-  background-color: #f9f6ee;
-  border-radius: 5px;
-  border-bottom: 5px solid purple;
-  padding: 5% 15%;
 }
 .content .trending {
   display: grid;
