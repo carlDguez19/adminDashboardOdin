@@ -41,6 +41,12 @@ html, body {
   margin-right: 10px;
   padding-top: 10px;
 }
+.header .search .magGlass:hover {
+  cursor: pointer;
+}
+.header .search .magGlass:active {
+  scale: 0.9;
+}
 .header .search .searchDiv {
   width: 100%;
 }
@@ -64,6 +70,12 @@ html, body {
   padding-top: 10px;
   margin-left: 5px;
 }
+.header .user .bellRing:hover {
+  cursor: pointer;
+}
+.header .user .bellRing:active {
+  scale: 0.9;
+}
 .header .user .pfp {
   height: 2.5em;
   width: 2.5em;
@@ -72,6 +84,9 @@ html, body {
   border-radius: 50%;
   margin-left: 20px;
   margin-top: 10px;
+}
+.header .user .pfp:hover {
+  cursor: pointer;
 }
 .header .user .userName {
   font-size: 1rem;
@@ -129,6 +144,12 @@ html, body {
   color: #faf9f6;
   border-radius: 30px;
 }
+.header .nav .button1a:hover, .header .nav .button2a:hover, .header .nav .button3a:hover {
+  cursor: pointer;
+}
+.header .nav .button1a:active, .header .nav .button2a:active, .header .nav .button3a:active {
+  scale: 0.97;
+}
 
 .sidebar {
   grid-row: 1/3;
@@ -156,11 +177,17 @@ html, body {
 .sidebar .logo .nolo img {
   width: 100%;
 }
+.sidebar .logo .nolo:hover {
+  cursor: pointer;
+}
 .sidebar .logo .brand {
   font-size: 48px;
   font-family: "Meedori Bold";
   color: #faf9f6;
   padding-left: 2%;
+}
+.sidebar .logo .brand:hover {
+  cursor: pointer;
 }
 .sidebar .tabs ul {
   display: grid;
@@ -177,6 +204,9 @@ html, body {
   align-items: center;
   justify-content: space-between;
   padding: 12px 0;
+}
+.sidebar .tabs ul .tabA:hover {
+  cursor: pointer;
 }
 .sidebar .tabs ul .tabA .containerM {
   width: 100%;
@@ -208,6 +238,9 @@ html, body {
   align-items: center;
   justify-content: space-between;
   padding: 15px 0;
+}
+.sidebar .settings ul .settingA:hover {
+  cursor: pointer;
 }
 .sidebar .settings ul .settingA .containerM {
   width: 100%;
@@ -269,6 +302,12 @@ html, body {
   margin-right: 5px;
   bottom: -25px;
 }
+.content .projects .card .iconsCard .f:hover, .content .projects .card .iconsCard .v:hover, .content .projects .card .iconsCard .sh:hover {
+  cursor: pointer;
+}
+.content .projects .card .iconsCard .f:active, .content .projects .card .iconsCard .v:active, .content .projects .card .iconsCard .sh:active {
+  scale: 0.9;
+}
 .content .projects .contentTitle {
   align-self: flex-start;
   position: absolute;
@@ -308,6 +347,12 @@ html, body {
   border-radius: 5px;
   padding: 5% 15%;
   box-shadow: 2px 2px 3px #999;
+}
+.content .ann ul .annCard:hover {
+  cursor: pointer;
+}
+.content .ann ul .annCard:active {
+  scale: 0.98;
 }
 .content .ann ul .annCard span {
   font-size: 1.3rem;
@@ -350,6 +395,12 @@ html, body {
   box-shadow: 2px 2px 3px #999;
   border-bottom: 5px solid lightblue;
 }
+.content .trending ul .userCard:hover {
+  cursor: pointer;
+}
+.content .trending ul .userCard:active {
+  scale: 0.98;
+}
 .content .trending ul .userCard .pfpTrend {
   width: 2.5em;
   height: 2.5em;
@@ -373,6 +424,11 @@ html, body {
   }
   .header .search .searchDiv .searchBar {
     width: 75%;
+  }
+}
+@media only screen and (max-width: 845px) {
+  .header .user .bellRing {
+    visibility: hidden;
   }
 }
 @media only screen and (max-width: 700px) {

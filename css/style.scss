@@ -38,6 +38,12 @@ html, body{
             margin-left: 35px;
             margin-right: 10px;
             padding-top: 10px;
+            &:hover{
+                cursor: pointer;
+            }
+            &:active{
+                scale: .9;
+            }
         }
         .searchDiv{
             width: 100%;
@@ -61,6 +67,12 @@ html, body{
             width: 25px;
             padding-top: 10px;
             margin-left: 5px;
+            &:hover{
+                cursor: pointer;
+            }
+            &:active{
+                scale: .9;
+            }
         }
         .pfp{
             height: 2.5em;
@@ -69,6 +81,9 @@ html, body{
             border-radius: 50%;
             margin-left: 20px;
             margin-top: 10px;
+            &:hover{
+                cursor: pointer;
+            }
         }
         .userName{
             font-size: 1rem;
@@ -124,6 +139,12 @@ html, body{
             text-transform: uppercase;
             color: #faf9f6;
             border-radius: 30px;
+            &:hover{
+                cursor: pointer;
+            }
+            &:active{
+                scale: .97;
+            }
         }
     }
 }
@@ -152,12 +173,18 @@ html, body{
             img{
                 width: 100%;
             }
+            &:hover{
+                cursor: pointer;
+            }
         }
         .brand{
             font-size: 48px;
             font-family: 'Meedori Bold';
             color: #faf9f6;
             padding-left: 2%;
+            &:hover{
+                cursor: pointer;
+            }
         }
     }
     .tabs ul{
@@ -174,6 +201,9 @@ html, body{
             align-items: center;
             justify-content: space-between;
             padding: 12px 0;
+            &:hover{
+                cursor: pointer;
+            }
             .containerM{
                 width: 100%;
                 display: flex;
@@ -205,6 +235,9 @@ html, body{
             display: flex;
             align-items: center;
             justify-content: space-between;
+            &:hover{
+                cursor: pointer;
+            }
             padding: 15px 0;
             .containerM{
                 width: 100%;
@@ -263,6 +296,12 @@ html, body{
                     width: 25px;
                     margin-right: 5px;
                     bottom: -25px;
+                    &:hover{
+                        cursor: pointer;
+                    }
+                    &:active{
+                        scale: .9;
+                    }
                 }
             }
         }
@@ -305,6 +344,12 @@ html, body{
             border-radius: 5px;
             padding: 5% 15%;
             box-shadow: 2px 2px 3px #999;
+            &:hover{
+                cursor: pointer;
+            }
+            &:active{
+                scale: .98;
+            }
             span{
                 font-size: 1.3rem;
                 font-weight: bold;
@@ -346,6 +391,12 @@ html, body{
             border-radius: 5px;
             box-shadow: 2px 2px 3px #999;
             border-bottom: 5px solid lightblue;
+            &:hover{
+                cursor: pointer;
+            }
+            &:active{
+                scale: .98;
+            }
             .pfpTrend{
                 width: 2.5em;
                 height: 2.5em;
@@ -374,6 +425,16 @@ html, body{
                 .searchBar{
                     width: 75%;
                 }
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 845px){
+    .header{
+        .user{
+            .bellRing{
+                visibility: hidden;
             }
         }
     }
