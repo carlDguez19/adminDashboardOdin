@@ -8,6 +8,7 @@ html, body {
   padding: 0;
   font-family: "arial", sans-serif;
   color: #28282b;
+  background-color: #d3d3d3;
 }
 
 .container {
@@ -150,6 +151,7 @@ html, body {
 }
 .sidebar .logo .nolo {
   width: 35%;
+  min-width: 80px;
 }
 .sidebar .logo .nolo img {
   width: 100%;
@@ -363,4 +365,29 @@ html, body {
 .content .trending ul .userCard p span {
   font-size: 1.1rem;
   font-weight: bold;
+}
+
+@media only screen and (max-width: 980px) {
+  .header {
+    height: 140px;
+  }
+  .header .search .searchDiv .searchBar {
+    width: 75%;
+  }
+}
+@media only screen and (max-width: 700px) {
+  .header .nav {
+    flex-direction: column;
+    margin: 0 30%;
+  }
+  .header .nav .button1a, .header .nav .button2a, .header .nav .button3a {
+    height: 20px;
+    width: 60%;
+    font-size: 0.65rem;
+  }
+}
+@media only screen and (max-width: 560px) {
+  .header .user {
+    visibility: hidden;
+  }
 }/*# sourceMappingURL=style.css.map */
