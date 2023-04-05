@@ -121,7 +121,7 @@ html, body {
   border: none;
   height: 30px;
   width: 75%;
-  background-color: royalblue;
+  background-color: #2a7fff;
   font-size: 0.75rem;
   font-weight: bold;
   text-transform: uppercase;
@@ -194,24 +194,33 @@ html, body {
 .sidebar .settings ul {
   display: grid;
   grid-template-rows: repeat(3 1fr);
-  align-content: center;
   align-items: center;
-  text-align: center;
+  justify-content: center;
+  text-align: left;
   list-style-type: none;
   margin: 0;
   padding: 0;
 }
-.sidebar .settings ul .setting1 {
-  background-color: orangered;
+.sidebar .settings ul .settingA {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
   padding: 15px 0;
 }
-.sidebar .settings ul .setting2 {
-  background-color: orange;
-  padding: 15px 0;
+.sidebar .settings ul .settingA .containerM {
+  width: 100%;
+  display: flex;
 }
-.sidebar .settings ul .setting3 {
-  background-color: yellow;
-  padding: 15px 0;
+.sidebar .settings ul .settingA .containerM .containerL {
+  width: 30%;
+}
+.sidebar .settings ul .settingA .containerM .containerR {
+  width: 49%;
+  float: left;
+  font-size: 17px;
+  font-family: "Meedori Bold";
+  color: #faf9f6;
+  text-align: left;
 }
 
 .content {
@@ -238,7 +247,7 @@ html, body {
   padding: 20px 25px;
   background-color: #999;
   border-radius: 5px;
-  border-left: 5px solid goldenrod;
+  border-left: 5px solid #2a7fff;
   background-color: #f9f6ee;
   box-shadow: 2px 2px 3px #999;
   font-size: 0.85rem;
@@ -293,7 +302,7 @@ html, body {
 }
 .content .ann ul .annCard {
   background-color: #f9f6ee;
-  border-bottom: 5px solid purple;
+  border-bottom: 5px solid #0000aa;
   border-radius: 5px;
   padding: 5% 15%;
   box-shadow: 2px 2px 3px #999;
@@ -337,7 +346,7 @@ html, body {
   text-align: left;
   border-radius: 5px;
   box-shadow: 2px 2px 3px #999;
-  border-bottom: 5px solid green;
+  border-bottom: 5px solid lightblue;
 }
 .content .trending ul .userCard .pfpTrend {
   width: 2.5em;
